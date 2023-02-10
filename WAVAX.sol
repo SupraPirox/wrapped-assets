@@ -15,11 +15,11 @@
 
 // Contract name, token name, and token symbol modified by Ava Labs 2020
 
-pragma solidity >=0.4.22 <0.6;
+pragma solidity 0.8.9;
 
 contract WAVAX {
-    string public name     = "Wrapped AVAX";
-    string public symbol   = "WAVAX";
+    string public name     = "Bryan Token";
+    string public symbol   = "BTKN";
     uint8  public decimals = 18;
 
     event  Approval(address indexed src, address indexed guy, uint wad);
